@@ -18,6 +18,17 @@ h1 {
   font-weight: bold;
   color: Orangered;
 }
-.table-hover thead tr:hover th, .table-hover tbody tr:hover td {
-  background-color: #D1D119;
+.table-responsive thead tr:hover th, .table-hover tbody tr:hover td {
+  background-color: orangered;
+}
+
+.table-wrapper {
+  display: block;
+  max-height: 300px;
+  overflow-y: auto;
+  -ms-overflow-style: -ms-autohiding-scrollbar;
+}
+
+body {
+  background: grey;
 }
