@@ -1,0 +1,23 @@
+.form-control {
+  display: inline-block;
+  width: 250px;
+  margin-top: 50px;
+}
+table, th, td {
+  border: 1px solid black;
+  border-collapse: collapse;
+}
+header {
+  padding: 20px;
+  margin-bottom: 20px;
+  color: BLACK;
+  background: BLUE;
+  width: 100%;
+}
+h1 {
+  font-weight: bold;
+  color: Orangered;
+}
+.table-hover thead tr:hover th, .table-hover tbody tr:hover td {
+  background-color: #D1D119;
+}
